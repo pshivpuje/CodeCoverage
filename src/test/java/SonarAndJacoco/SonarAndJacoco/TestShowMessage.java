@@ -8,7 +8,8 @@ import org.junit.Test;
 
 	public class TestShowMessage {  
 	    
-	    String message = "Emma Watson";   
+	    String message = "Emma Watson";
+	    String message1= "Prathamesh";
 	      
 	     
 	    ShowMessage obj = new ShowMessage(message);  
@@ -26,11 +27,17 @@ import org.junit.Test;
 	        String msg = "Hello!" + "Emma Watson";  
 	        assertEquals(msg,obj.finalMessage());  
 	    }  
-	    @Test  
-	    public void testfinalMessage1() {  
-	        System.out.println("We are inside of the finalMessage() method");  
-	        String msg = "Hello!" + "Emma Watson";  
-	        assertEquals(msg,obj.finalMessage());  
+	    public void testnewmessage() {  
+	        System.out.println("We are inside of the NewMessage() method");  
+	        String msg1 = "who is " + "prathamesh";  
+	        assertEquals(msg1,obj.newmessage()); 
+	        }
+
+		@Test(expected = ArithmeticException.class)
+	    public void testdivide() {  
+	        System.out.println("We are inside of the testdivide() method");    
+			obj.divide();
 	    } 
+	    
 	}  
 

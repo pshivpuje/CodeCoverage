@@ -21,9 +21,10 @@ package SonarAndJacoco.SonarAndJacoco;
 		      System.out.println(msg);  
 		      return msg;  
 		   }     
-		   public void newmessage() {
-			   String msg = "How is " + message;
-			   System.out.println(msg);
+		   public String newmessage() {
+			   String msg1 = "Who is " + message;
+			   System.out.println(msg1);
+			return msg1;
 			   
 		   }
 		 public void addition() {
@@ -32,11 +33,11 @@ package SonarAndJacoco.SonarAndJacoco;
 			 int c=a+b;
 			 System.out.println("The addition is "+c);
 		 } 
-		 public void substraction() {
-			 int a=10;
-			 int b=20;
-			 int c=a-b;
-			 System.out.println("The substraction is "+c);
+		 public void divide() {
+			 int a=0;
+			 int b=12;
+			 int c=a%b;
+				System.out.println("The mul is "+c);
 		 }
 		 public void substraction1() {
 			 int a=10;
