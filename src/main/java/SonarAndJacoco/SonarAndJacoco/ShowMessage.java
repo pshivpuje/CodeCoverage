@@ -3,9 +3,11 @@ package SonarAndJacoco.SonarAndJacoco;
 
 	public class ShowMessage {  
 		   private String message;  
+		   private String message1;
 		  
-		   public ShowMessage(String message){  
-		      this.message = message;   
+		   public ShowMessage(String message,String message1){  
+		      this.message = message;
+		      this.message1= message1;
 		   }  
 		   
 		   public void show(){  
@@ -22,7 +24,8 @@ package SonarAndJacoco.SonarAndJacoco;
 		      return msg;  
 		   }     
 		   public String newmessage() {
-			   String msg1 = "Who is " + message;
+			   System.out.println(message1);
+			   String msg1 = "Who is " + message1;
 			   System.out.println(msg1);
 			return msg1;
 			   

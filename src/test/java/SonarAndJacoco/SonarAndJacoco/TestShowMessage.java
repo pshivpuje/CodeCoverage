@@ -10,9 +10,9 @@ import org.junit.Test;
 	    
 	    String message = "Emma Watson";
 	    String message1= "Prathamesh";
-	      
+	      boolean expected= true;
 	     
-	    ShowMessage obj = new ShowMessage(message);  
+	    ShowMessage obj = new ShowMessage(message,message1);  
 	     
 	     
 	    @Test(expected = ArithmeticException.class)  
@@ -27,17 +27,17 @@ import org.junit.Test;
 	        String msg = "Hello!" + "Emma Watson";  
 	        assertEquals(msg,obj.finalMessage());  
 	    }  
+	    @Test 
 	    public void testnewmessage() {  
 	        System.out.println("We are inside of the NewMessage() method");  
 	        String msg1 = "who is " + "prathamesh";  
-	        assertEquals(msg1,obj.newmessage()); 
+	        assertequlas(msg1,obj.newmessage());
 	        }
 
-		@Test(expected = ArithmeticException.class)
-	    public void testdivide() {  
-	        System.out.println("We are inside of the testdivide() method");    
-			obj.divide();
-	    } 
+		private void assertequlas(String msg1, String newmessage) {
+			// TODO Auto-generated method stub
+			
+		} 
 	    
 	}  
 
