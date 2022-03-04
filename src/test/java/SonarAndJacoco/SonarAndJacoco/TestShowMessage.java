@@ -5,18 +5,15 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-/**
- * Unit test for simple App.
- */
 
 	public class TestShowMessage {  
-	    //Creating message property with the default string  
+	    
 	    String message = "Emma Watson";   
 	      
-	    //Creating object of the ShowMessage class  
+	     
 	    ShowMessage obj = new ShowMessage(message);  
 	     
-	    //testShow() method by adding the ArithmeticException  
+	     
 	    @Test(expected = ArithmeticException.class)  
 	    public void testshow() {      
 	        System.out.println("We are inside of the show() method");       
