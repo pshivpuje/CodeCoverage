@@ -26,5 +26,11 @@ import org.junit.Test;
 	        String msg = "Hello!" + "Emma Watson";  
 	        assertEquals(msg,obj.finalMessage());  
 	    }  
+	    @Test  
+	    public void testfinalMessage1() {  
+	        System.out.println("We are inside of the finalMessage() method");  
+	        String msg = "Hello!" + "Emma Watson";  
+	        assertEquals(msg,obj.finalMessage());  
+	    } 
 	}  
 
