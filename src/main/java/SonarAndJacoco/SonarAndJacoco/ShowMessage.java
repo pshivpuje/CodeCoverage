@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.awt.Graphics;
 import java.awt.Color;
 
+
 public class ShowMessage {  
 		
 		   private static final String LOGGER = null;
@@ -111,6 +112,7 @@ final int roundCarryMask = (1 << (bitShiftsInWord - 1));
 		 {
 		  
 		   int elements = 0;
+		   
 		for (int i = 0, valOffset = 0; i < elements; ++i, valOffset += 64) {
 		     long val = 0;
 		     for (int j = 0; j < 64; ++j) {
@@ -129,16 +131,13 @@ final int roundCarryMask = (1 << (bitShiftsInWord - 1));
 		        g.drawLine(0, 0, 200, 200);
 		        g.drawLine(200, 0, 0, 200);
 		    }
-		 int minval(int *A, int n) {
-			  int currmin;
+		
+			
 
-			  for (int i=0; i<n; i++)
-			    if (A[i] < currmin)
-			      currmin = A[i];
-			  return currmin;
-			}
 
+		
 		public static void main(String args[]) {
+			
 			 myMethod();
 			    myMethod();
 			    myMethod();
@@ -146,7 +145,7 @@ final int roundCarryMask = (1 << (bitShiftsInWord - 1));
 			    myMethod1("Jenny");
 			    myMethod1("Anja");
 			    checkAge(15);
-			
+			    
 		 }
 	}
     

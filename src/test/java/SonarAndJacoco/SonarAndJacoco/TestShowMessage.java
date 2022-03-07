@@ -8,7 +8,7 @@ import org.junit.Test;
 
 	public class TestShowMessage {  
 	    
-	    String message = "Emma Watson";
+	    String message = "Prathamesh Shivpuje";
 	    String message1= "Prathamesh";
 	      boolean expected= true;
 	      
@@ -25,7 +25,7 @@ import org.junit.Test;
 	    @Test  
 	    public void testfinalMessage() {  
 	        System.out.println("We are inside of the finalMessage() method");  
-	        String msg = "Hello!" + "Emma Watson";  
+	        String msg = "Hello!" + "Prathamesh Shivpuje";  
 	        assertEquals(msg,obj.finalMessage());  
 	    }  
 	    @Test 
