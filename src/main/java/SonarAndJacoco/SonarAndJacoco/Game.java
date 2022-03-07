@@ -33,10 +33,10 @@ public class Game {
         CharacterClass chosenClass = null;
         Character hero = null;
 
-        switch (choice){
-        case "Fighter":
-            chosenClass = new Fighter();
-            break;
+    //    switch (choice){
+      //  case "Fighter":
+        //    chosenClass = new Fighter();
+          //  break;
        /* case "Rogue":
             chosenClass = new Rogue();
             break;
@@ -46,7 +46,7 @@ public class Game {
         case "Cleric":
             chosenClass = new Cleric();
             break; */
-        }
+      //  }
 
         try {
             hero = new Character(name, chosenClass);
