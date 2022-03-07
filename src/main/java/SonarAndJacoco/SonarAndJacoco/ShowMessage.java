@@ -7,8 +7,8 @@ import java.awt.Color;
 
 public class ShowMessage {  
 		
-		   private static final String LOGGER = null;
-		private static final String MRJobConfig = null;
+		//   private static final String LOGGER = null;
+	//	private static final String MRJobConfig = null;
 		private String message;  
 		   private String message1;
 		   
