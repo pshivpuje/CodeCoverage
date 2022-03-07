@@ -30,3 +30,68 @@ class Child13 extends Child2{
 		System.out.println("This is Seventh");
 	}
 }
+class Child14 extends Child2{
+	void shown1() {
+		System.out.println("This is Seventh");
+	}
+}
+class Child15 extends Child2{
+	void shown1() {
+		System.out.println("This is Seventh");
+	}
+}
+class Child16 extends Child2{
+	void shown1() {
+		System.out.println("This is Seventh");
+	}
+}
+class Child17 extends Child2{
+	void shown1() {
+		System.out.println("This is Seventh");
+	}
+}
+class Child18 extends Child2{
+	void shown1() {
+		System.out.println("This is Seventh");
+	}
+}
+class Child19 extends Child2{
+	void shown1() {
+		System.out.println("This is Seventh");
+	}
+}
+class Child20 extends Child2{
+	void shown1() {
+		System.out.println("This is Seventh");
+	}
+}
+class Child21 extends Child2{
+	void shown1() {
+		System.out.println("This is Seventh");
+	}
+}
+class Child22 extends Child2{
+	void shown1() {
+		System.out.println("This is Seventh");
+	}
+}
+class Child23 extends Child2{
+	void shown1() {
+		System.out.println("This is Seventh");
+	}
+}
+class Child24 extends Child2{
+	void shown1() {
+		System.out.println("This is Seventh");
+	}
+}
+class Child25 extends Child2{
+	void shown1() {
+		System.out.println("This is Seventh");
+	}
+}
+class Child26 extends Child2{
+	void shown1() {
+		System.out.println("This is Seventh");
+	}
+}
