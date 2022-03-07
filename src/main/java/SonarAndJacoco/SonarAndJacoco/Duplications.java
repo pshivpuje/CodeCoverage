@@ -11,12 +11,12 @@ public class Duplications {
 	// Inherited class
 	class Child extends Duplications {
 	    // This method overrides show() of Parent
-	    @Override
-	    void show()
+	    	    void show()
 	    {
 	        System.out.println("Child's show()");
 	    }
 	}
+
 	class Child1 extends Duplications {
 	    // This method overrides show() of Parent
 	    @Override
@@ -27,7 +27,7 @@ public class Duplications {
 	}
 	class Child2 extends Duplications {
 	    // This method overrides show() of Parent
-	    @Override
+	    
 	    void show()
 	    {
 	        System.out.println("Child's show2()");
@@ -35,7 +35,7 @@ public class Duplications {
 	}
 	class Child3 extends Duplications {
 	    // This method overrides show() of Parent
-	    @Override
+	
 	    void show()
 	    {
 	        System.out.println("Child's show3()");
