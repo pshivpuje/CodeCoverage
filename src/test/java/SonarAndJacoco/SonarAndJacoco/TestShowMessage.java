@@ -28,7 +28,9 @@ import org.junit.Test;
 	        String msg = "Hello!" + "Prathamesh Shivpuje";  
 	        assertEquals(msg,obj.finalMessage());  
 	    }  
-	    @Test 
+	    
+
+		@Test 
 	    public void testnewmessage() {  
 	        System.out.println("We are inside of the NewMessage() method");  
 	        String msg1 = "who is " + "prathamesh";  
