@@ -1,6 +1,8 @@
 package SonarAndJacoco.SonarAndJacoco;
 
 import java.io.IOException;
+import java.awt.Graphics;
+import java.awt.Color;
 
 public class ShowMessage {  
 		
@@ -57,6 +59,7 @@ public class ShowMessage {
 			 int b=20;
 			 int c=a-b;
 			 System.out.println("The substraction is "+c);
+			 
 			 
 		 }
 		 static void checkAge(int age) { 
@@ -118,8 +121,23 @@ final int roundCarryMask = (1 << (bitShiftsInWord - 1));
 		     }
 		    		   }
 		 }
-		 
-		
+		 public void paint(Graphics g)
+		    {
+		        g.setColor(Color.red);
+		        g.fillRect(0, 0, 200, 200);
+		        g.setColor(Color.black);
+		        g.drawLine(0, 0, 200, 200);
+		        g.drawLine(200, 0, 0, 200);
+		    }
+		 int minval(int *A, int n) {
+			  int currmin;
+
+			  for (int i=0; i<n; i++)
+			    if (A[i] < currmin)
+			      currmin = A[i];
+			  return currmin;
+			}
+
 		public static void main(String args[]) {
 			 myMethod();
 			    myMethod();
