@@ -20,13 +20,13 @@ public class ShowMessage {
 		   static void myMethod() {
 			    System.out.println("I just got executed!");
 			  }
-		   public void show(){  
+		 /*  public void show(){  
 		     
 		      System.out.println(message);  
 		      
 		  //    int a = 0;  
 		    //  int b = 1/a;  
-		   }     
+		   }     */
 		     
 		   public String finalMessage(){  
 		      String msg = "Hello!" + message;  

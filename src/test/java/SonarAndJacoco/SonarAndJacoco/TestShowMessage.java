@@ -15,19 +15,19 @@ import org.junit.Test;
 	     
 	    ShowMessage obj = new ShowMessage(message,message1);  
 	    
-	     
+	 /*
 	    @Test(expected = ArithmeticException.class)  
 	    public void testshow() {      
 	        System.out.println("We are inside of the show() method");       
 	        obj.show();       
-	    }  
+	    }  */
 	      
-	    // @Test  
-	 /*   public void testfinalMessage() {  
+	    
+	   public void testfinalMessage() {  
 	        System.out.println("We are inside of the finalMessage() method");  
 	        String msg = "Hello!" + "Prathamesh Shivpuje";  
 	        assertEquals(msg,obj.finalMessage());  
-	    }  */
+	    }  
 	    
 
 		@Test 
