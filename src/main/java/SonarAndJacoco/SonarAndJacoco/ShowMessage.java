@@ -85,67 +85,13 @@ public class ShowMessage {
                  int bitShiftsInWord,
                  boolean roundUp) 
 {
-if (wordShifts == 0 && bitShiftsInWord == 0) {
-return;
-}
 
-assert (wordShifts >= 0);
-assert (bitShiftsInWord >= 0);
-assert (bitShiftsInWord < 32);
-if (wordShifts >= 4) {
-zeroClear();
-return;
-}
-
-final int shiftRestore = 32 - bitShiftsInWord;
-
-final boolean noRestore = bitShiftsInWord == 0;
-final int roundCarryNoRestoreMask = 1 << 31;
-final int roundCarryMask = (1 << (bitShiftsInWord - 1)); 
-}
-		 private void zeroClear() {
-			// TODO Auto-generated method stub
-			
-		}
-		 
-		 public void logSargResult(int stripeIx, boolean[] rgsToRead)
-		 {
-		  
-		   int elements = 0;
-		   
-		for (int i = 0, valOffset = 0; i < elements; ++i, valOffset += 64) {
-		     long val = 0;
-		     for (int j = 0; j < 64; ++j) {
-		       int ix = valOffset + j;
-		       if (rgsToRead.length == ix) break;
-		       if (!rgsToRead[ix]) continue;
-		       val = val | (1 << j);                
-		     }
-		    		   }
+	
 		 }
-		 public void paint(Graphics g)
-		    {
-		        g.setColor(Color.red);
-		        g.fillRect(0, 0, 200, 200);
-		        g.setColor(Color.black);
-		        g.drawLine(0, 0, 200, 200);
-		        g.drawLine(200, 0, 0, 200);
-		    }
-		
-			
-
 
 		
 		public static void main(String args[]) {
 			
-			 myMethod();
-			    myMethod();
-			    myMethod();
-			    myMethod1("Liam");
-			    myMethod1("Jenny");
-			    myMethod1("Anja");
-			    checkAge(15);
-			    
 		 }
 	}
     
