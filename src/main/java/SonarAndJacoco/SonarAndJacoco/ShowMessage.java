@@ -24,8 +24,8 @@ public class ShowMessage {
 		     
 		      System.out.println(message);  
 		      
-		      int a = 0;  
-		      int b = 1/a;  
+		  //    int a = 0;  
+		    //  int b = 1/a;  
 		   }     
 		     
 		   public String finalMessage(){  
