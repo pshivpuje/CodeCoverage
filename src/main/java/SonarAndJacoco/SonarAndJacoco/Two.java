@@ -11,13 +11,14 @@ public int divide (int numerator) {
 	
 		return number++;
 	}
-	public void dosomething() {
-	Integer number = null;
 	
-	if(number > 0)
-	{
-		System.out.println("positive number");
-	}
+	// public void dosomething() {
+	//Integer number = null;
 	
-	}
+	//if(number > 0)
+	//{
+		//System.out.println("positive number");
+	//}
+	
+	//}
 }

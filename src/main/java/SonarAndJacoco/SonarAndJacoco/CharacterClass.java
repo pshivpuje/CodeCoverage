@@ -17,11 +17,11 @@ abstract class CharacterClass {
 
         setCharacterClass("Character Class");
         setLevel(1);
-        setHp(10);
-        setStrength(10);
-        setConstitution(10);
-        setDexterity(10);
-        setIntelligence(10);
+       // setHp(10);
+       // setStrength(10);
+      //  setConstitution(10);
+      //  setDexterity(10);
+      //  setIntelligence(10);
         setWisdom(10);
         setCharisma(10);
     }
