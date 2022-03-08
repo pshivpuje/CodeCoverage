@@ -110,11 +110,11 @@ public class Game {
         this.name = name;
         this.characterClass = chosenClass.getCharacterClass();
         level =  chosenClass.getLevel() ;
-        hp = ( chosenClass.getHp() + getModifier( chosenClass.getConstitution() )  );
+     //   hp = ( chosenClass.getHp() + getModifier( chosenClass.getConstitution() )  );
         currentHp = hp;
         setArmorClass(10 + getModifier( + chosenClass.getDexterity()));
-        strength = chosenClass.getStrength();
-        constitution = chosenClass.getConstitution();
+     //   strength = chosenClass.getStrength();
+     //   constitution = chosenClass.getConstitution();
         dexterity = chosenClass.getDexterity();
         intelligence = chosenClass.getIntelligence();
         wisdom = chosenClass.getWisdom();

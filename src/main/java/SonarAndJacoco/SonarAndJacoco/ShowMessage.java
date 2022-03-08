@@ -46,12 +46,15 @@ public class ShowMessage {
 			 int c=a+b;
 			 System.out.println("The addition is "+c);
 		 } 
-		 public void divide() {
+		/* public void divide() {
 			 int a=0;
 			 int b=12;
 			 int c=a%b;
 				System.out.println("The mul is "+c);
 		 }
+		 */
+		 
+		 /*
 		 static void myMethod1(String fname) {
 			    System.out.println(fname + " Refsnes");
 			  }
@@ -63,6 +66,7 @@ public class ShowMessage {
 			 
 			 
 		 }
+		 */
 		 static void checkAge(int age) { 
 			    if (age < 18) {
 			      throw new ArithmeticException("Access denied - You must be at least 18 years old."); 
@@ -70,6 +74,7 @@ public class ShowMessage {
 			      System.out.println("Access granted - You are old enough!"); 
 			    }
 			 } 
+		 /*
 		 public boolean satisfiedBy() {
 			 
 			  String text = null;
@@ -88,6 +93,7 @@ public class ShowMessage {
 
 	
 		 }
+		 */
 
 		
 		public static void main(String args[]) {
