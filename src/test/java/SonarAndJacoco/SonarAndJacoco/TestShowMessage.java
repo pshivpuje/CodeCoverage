@@ -22,12 +22,12 @@ import org.junit.Test;
 	        obj.show();       
 	    }  
 	      
-	    @Test  
-	    public void testfinalMessage() {  
+	    // @Test  
+	 /*   public void testfinalMessage() {  
 	        System.out.println("We are inside of the finalMessage() method");  
 	        String msg = "Hello!" + "Prathamesh Shivpuje";  
 	        assertEquals(msg,obj.finalMessage());  
-	    }  
+	    }  */
 	    
 
 		@Test 
